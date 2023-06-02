@@ -1,0 +1,1940 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Geeks Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-3 shadow-sm">
+      <div class="container-fluid position-relative">
+        <a href="#" class="navbar-brand me-4">
+          <img
+            src="./assets/logo Tu dark.png"
+            width="120px"
+            class="img-fluid"
+          />
+        </a>
+        <div class="order d-flex align-items-center">
+          <div class="navbar-link d-flex align-items-center z-1">
+            <a
+              type="button"
+              id="change-theme"
+              class="btn btn-light me-2 change-theme d-flex justify-content-center align-items-center"
+            >
+              <i class="bi bi-brightness-high-fill fs-5 text-gray-600"></i>
+            </a>
+            <a
+              type="button"
+              class="btn btn-outline-primary fw-semibold py-2 px-3 me-2"
+            >
+              Sign In
+            </a>
+            <a
+              type="button"
+              class="btn btn-primary fw-semibold py-2 px-3 me-2 me-lg-0 d-none d-md-block"
+            >
+              Sign Up
+            </a>
+          </div>
+          <button
+            class="navbar-toggler collapsed border-primary d-flex flex-column shadow-none rounded-3 py-2 d-block d-lg-none"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-menu"
+            role="button"
+            aria-controls="navbar-menu"
+          >
+            <span class="toggler-icon top-bar d-inline-block mt-1"></span>
+            <span class="toggler-icon middle-bar d-inline-block my-1"></span>
+            <span class="toggler-icon bottom-bar d-inline-block mb-1"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse justify-content-start"
+          id="navbar-menu"
+        >
+          <ul class="navbar-nav align-items-lg-center mt-3 mt-lg-0">
+            <li class="nav-item dropdown me-2 me-xl-3 mb-3 mb-lg-0">
+              <a
+                href=""
+                class="nav-link fw-bold d-flex align-items-center align-items-lg-baseline"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+              >
+                Browse
+                <i class="fa-solid fa-angle-down ms-lg-1 ms-xl-2 ms-auto"></i>
+              </a>
+              <ul
+                class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+              >
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Web Development
+                    <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Bootstrap</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">React</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >GraphQI</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Gatsby</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Grunt</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Svelte</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Meteor</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">HTML5</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Angular</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Design <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Graphic Design</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Illustrator</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >UX / UI Design</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Figma Design</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Adobe XD</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Sketch</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Icon Design</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Photoshop</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Mobile App</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >IT Software</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Marketing</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Music</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Life Style</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Business</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Photography</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-2 me-xl-3 mb-3 mb-lg-0">
+              <a
+                href=""
+                class="nav-link fw-bold d-flex align-items-center align-items-lg-baseline"
+                data-bs-toggle="dropdown"
+                >Landings
+                <i class="fa-solid fa-angle-down ms-lg-1 ms-xl-2 ms-auto"></i
+              ></a>
+              <ul
+                class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+              >
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4 disabled"
+                    >LANDINGS</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4 d-flex">
+                    Education
+                    <span class="btn bg-primary fw-bold text-white ms-auto"
+                      >New</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Home Academny</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Courses</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Lead Course</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Request Access</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">SaaS</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Job Listing</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-2 me-xl-3 mb-3 mb-lg-0">
+              <a
+                href=""
+                class="nav-link fw-bold d-flex align-items-center align-items-lg-baseline"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                >Pages
+                <i class="fa-solid fa-angle-down ms-lg-1 ms-xl-2 ms-auto"></i
+              ></a>
+              <ul
+                class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+              >
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Courses <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Course Single</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Course Single v2</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Course Resume</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Course Category</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Course Checkout</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Course List/Grid</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Add New Course</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Paths <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Browse Path</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Path Single</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Blog <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Listing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Article</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Category</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Sidebar</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Career <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Overview</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Listing</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Opening</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Portfolio <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">List</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Single</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Job <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Home</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">List</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Grid</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Single</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Company List</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Company Single</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Speciality <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Coming Soon</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Error 404</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Maintenance Mode</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Terms & Conditions</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">About</a>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Help Center <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Help Center</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">FAQ's</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Guide</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Guide Single</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Support</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Pricing</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Compare Plan</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Contact</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-2 me-xl-3 mb-3 mb-lg-0">
+              <a
+                href=""
+                class="nav-link fw-bold d-flex align-items-center align-items-lg-baseline"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                >Accounts
+                <i class="fa-solid fa-angle-down ms-lg-1 ms-xl-2 ms-auto"></i
+              ></a>
+              <ul
+                class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+              >
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4 disabled"
+                    >ACCOUNTS</a
+                  >
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
+                    >Instructor <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a
+                        href=""
+                        class="dropdown-item fw-medium ps-4 disabled text-dark"
+                        >INSTRUCTOR</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="dropdown-item fw-medium ps-4 disabled text-wrap lh-base"
+                        >Instructor dashboard for manage courses and learning</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Dashboard</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Profile</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >My Courses</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4">Orders</a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Reviews</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Students</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Payouts</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Earning</a
+                      >
+                    </li>
+                    <li class="dropdown dropend">
+                      <a
+                        href=""
+                        class="dropdown-item fw-medium ps-4 d-flex align-items-center gap-3"
+                        data-bs-toggle="dropdown"
+                        >Quiz
+                        <span class="btn bg-primary fw-bold text-white"
+                          >New</span
+                        >
+                        <i class="fa-solid fa-angle-right ms-auto"></i
+                      ></a>
+                      <ul
+                        class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                      >
+                        <li>
+                          <a href="" class="dropdown-item fw-medium ps-4"
+                            >Quiz</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="dropdown-item fw-medium ps-4"
+                            >Single</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="dropdown-item fw-medium ps-4"
+                            >Result</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
+                    >Students <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a
+                        href=""
+                        class="dropdown-item fw-medium ps-4 disabled text-dark"
+                        >STUDENTS</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="dropdown-item fw-medium ps-4 disabled text-wrap lh-base"
+                        >Students dashboard for manage courses and
+                        subsciptions</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Dashboard</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Subscriptions</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Payment</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Billing Info</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Invoice</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Invoice Details</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >Bookmarked</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="dropdown-item fw-medium ps-4"
+                        >My Path</a
+                      >
+                    </li>
+                    <li class="dropdown dropend">
+                      <a
+                        href=""
+                        class="dropdown-item fw-medium ps-4 d-flex align-items-center gap-3"
+                        data-bs-toggle="dropdown"
+                        data-bs-auto-close="outside"
+                        >Quiz
+                        <span class="btn bg-primary fw-bold text-white"
+                          >New</span
+                        >
+                        <i class="fa-solid fa-angle-right ms-auto"></i
+                      ></a>
+                      <ul
+                        class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                      >
+                        <li>
+                          <a href="" class="dropdown-item fw-medium ps-4"
+                            >Quiz</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="dropdown-item fw-medium ps-4"
+                            >Attempt</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="dropdown-item fw-medium ps-4"
+                            >Start</a
+                          >
+                        </li>
+                        <li>
+                          <a href="" class="dropdown-item fw-medium ps-4"
+                            >Result</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown dropend">
+                  <a
+                    href=""
+                    class="dropdown-item fw-medium ps-4 d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    >Admin <i class="fa-solid fa-angle-right ms-auto"></i
+                  ></a>
+                  <ul
+                    class="dropdown-menu rounded-3 mt-4 py-4 lh-lg border-0 shadow"
+                  >
+                    <li>
+                      <a
+                        href=""
+                        class="dropdown-item fw-medium ps-4 disabled text-dark"
+                        >MASTER ADMIN</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="dropdown-item fw-medium ps-4 disabled text-wrap lh-base"
+                        >Master admin dashboard for manage courses, user, site
+                        setting, and work with amazing apps</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li class="text-center mt-3 px-4">
+                      <a class="btn btn-primary text-white w-100" type="button">
+                        Go to Dashboard
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Sign In</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Sign Up</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Forgot Password</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Edit Profile</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4">Security</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Social Profiles</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Notifications</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Privacy Settings</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Delete Profile</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="dropdown-item fw-medium ps-4"
+                    >Linked Accounts</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-2 mb-3 mb-lg-0">
+              <a
+                href=""
+                class="nav-link fw-semibold fs-3"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                ><i class="bi bi-three-dots"></i
+              ></a>
+              <ul
+                class="dropdown-menu rounded-3 mt-3 py-4 lh-lg border-0 shadow threedots"
+              >
+                <li>
+                  <a
+                    href=""
+                    class="dropdown-item list-item fw-medium ps-4 text-decoration-none text-dark py-2"
+                  >
+                    <div class="d-flex align-items-center gap-4">
+                      <i
+                        class="bi bi-file-earmark-medical text-primary fs-3"
+                      ></i>
+                      <span>
+                        <p class="mb-0 fw-medium">Documentations</p>
+                        <p class="small mb-0 fw-light">
+                          Browse the all documentation
+                        </p>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="dropdown-item list-item fw-medium ps-4 text-decoration-none text-dark py-2"
+                  >
+                    <div class="d-flex align-items-center gap-4">
+                      <i class="bi bi-files text-primary fs-3"></i>
+                      <span>
+                        <p class="mb-0 fw-medium">Snippet</p>
+                        <p class="small mb-0 fw-light">Bunch of Snippet</p>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="dropdown-item list-item fw-medium ps-4 text-decoration-none text-dark py-2"
+                  >
+                    <div class="d-flex align-items-center gap-4">
+                      <i class="bi bi-stack text-primary fs-3"></i>
+                      <span>
+                        <p class="mb-0 fw-medium">
+                          Changlog
+                          <span class="text-primary fw-bold">v3.1.0</span>
+                        </p>
+                        <p class="small mb-0 fw-light">See what's new</p>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="dropdown-item list-item fw-medium ps-4 text-decoration-none text-dark py-2"
+                  >
+                    <div class="d-flex align-items-center gap-4">
+                      <i class="bi bi-toggle-off text-primary fs-3"></i>
+                      <span>
+                        <p class="mb-0 fw-medium">RTL demo</p>
+                        <p class="small mb-0 fw-light">RTL Pages</p>
+                      </span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="position-relative">
+            <span class="position-absolute top-50 translate-middle-y ms-3">
+              <i class="bi bi-search text-gray-600 fs-5"></i>
+            </span>
+            <input
+              type="text"
+              class="form-control py-3 py-lg-2 ps-5 rounded-2"
+              placeholder="Search Courses"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="py-5 text-center">
+        <div class="container">
+          <div class="row py-5 my-5 align-items-lg-center">
+            <div class="col-lg-6 text-start">
+              <h1 class="fw-bolder display-4 mb-4">
+                Become a Vanilla JavaScript Developer
+              </h1>
+              <p class="lead mb-4 text-gray-600 fw-medium">
+                In this tutorial, we are going to learn about JavaScript
+                (Vanilla JS) - for building incredible, powerful JavaScript
+                applications.
+              </p>
+              <div class="icons mb-4">
+                <p class="text-gray-600">
+                  <i class="bi bi-clock text-warning me-2"></i>
+                  4 Hours
+                </p>
+                <p class="text-gray-600">
+                  <i class="bi bi-camera-reels text-warning me-2"></i>
+                  12 Videos
+                </p>
+                <p class="text-gray-600">
+                  <i class="bi bi-people text-warning me-2"></i>
+                  10,234+ Enrolled
+                </p>
+              </div>
+              <button
+                class="btn btn-success text-white py-3 px-4 fw-semibold mb-4"
+              >
+                Watch Preview
+              </button>
+            </div>
+            <div class="col-lg-6 position-relative py-4 pe-4">
+              <div class="card shadow-lg rounded-5 border-0 z-1">
+                <div class="card-body p-4">
+                  <h3 class="text-start fw-bold mb-4">Create Free Account</h3>
+                  <div class="row row-cols-1 row-cols-md-3 g-2 mb-4 py-3">
+                    <div class="col">
+                      <a
+                        class="btn btn-light text-dark w-100 fw-semibold py-2"
+                        type="button"
+                      >
+                        <i class="bi bi-google text-danger me-2"></i>
+                        Google
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        class="btn btn-light text-dark w-100 fw-semibold py-2"
+                        type="button"
+                      >
+                        <i class="bi bi-twitter text-info me-2"></i>
+                        Twitter
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        class="btn btn-light text-dark w-100 fw-semibold py-2"
+                        type="button"
+                      >
+                        <i class="bi bi-facebook text-primary me-2"></i>
+                        Facebook
+                      </a>
+                    </div>
+                  </div>
+                  <div class="border-bottom text-center position-relative mb-4">
+                    <span
+                      class="position-absolute top-0 bg-white p-2 translate-middle rounded-2"
+                      >OR</span
+                    >
+                  </div>
+                  <form action="" class="py-3">
+                    <input
+                      type="email"
+                      class="form-control mb-4 py-2 px-3"
+                      placeholder="Email"
+                    />
+                    <input
+                      type="password"
+                      class="form-control mb-4 py-2 px-3"
+                      placeholder="Password"
+                    />
+                  </form>
+                  <button
+                    class="btn btn-primary text-white w-100 fw-semibold py-3 rounded-3 mb-4"
+                  >
+                    Start Courses for Free
+                  </button>
+                </div>
+                <div
+                  class="card-footer px-5 py-4 bg-white text-start rounded-bottom-5"
+                >
+                  <p>
+                    By continuing you accept the <b>Terms of Use</b>,
+                    <b>Privacy Policy</b>, and <b>Data Policy</b>
+                  </p>
+                </div>
+              </div>
+              <div class="pattern position-absolute end-0 bottom-0 opacity-25">
+                <img
+                  src="https://geeksui.codescandy.com/geeks/assets/images/pattern/dots-pattern.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-4 pt-5 border-top text-start"
+          >
+            <div class="col fw-semibold mb-3 mb-lg-0">
+              <span class="me-2">
+                <i
+                  class="bi bi-check-lg text-warning fs-5 p-0 d-inline-flex align-items-center justify-content-center"
+                ></i>
+              </span>
+              Shareable Certificate
+            </div>
+            <div class="col fw-semibold mb-3 mb-lg-0">
+              <span class="me-2">
+                <i
+                  class="bi bi-check-lg text-warning fs-5 p-0 d-inline-flex align-items-center justify-content-center"
+                ></i>
+              </span>
+              Flexible Deadlines
+            </div>
+            <div class="col fw-semibold mb-3 mb-lg-0">
+              <span class="me-2">
+                <i
+                  class="bi bi-check-lg text-warning fs-5 p-0 d-inline-flex align-items-center justify-content-center"
+                ></i>
+              </span>
+              100% Online Courses
+            </div>
+            <div class="col fw-semibold mb-3 mb-lg-0">
+              <span class="me-2">
+                <i
+                  class="bi bi-check-lg text-warning fs-5 p-0 d-inline-flex align-items-center justify-content-center"
+                ></i>
+              </span>
+              Approx.24 hours
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 text-center bg-secondary-bg-subtle">
+        <div class="container py-5">
+          <div class="header mb-5">
+            <h6 class="text-primary">COURSE DESCRIPTION</h6>
+            <h2 class="fw-bold display-5 mb-3">What will you learn?</h2>
+            <p class="lead text-gray-600 fw-medium mb-4">
+              Vanilla JS is a fast, lightweight, cross-platformframework for
+              building incredible, powerful JavaScript applications.
+            </p>
+          </div>
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col mb-4">
+              <div
+                class="card bg-white rounded-3 border-0 p-4 h-100 text-start"
+              >
+                <div class="card-body">
+                  <div class="d-md-flex mb-4">
+                    <div class="me-4 mb-3 mb-md-0">
+                      <img
+                        src="https://geeksui.codescandy.com/geeks/assets/images/svg/feature-icon-1.svg"
+                        alt=""
+                        class="img-fluid bg-primary rounded-circle"
+                      />
+                    </div>
+                    <div class="">
+                      <h4 class="fw-bold fs-3 mb-2">
+                        Introduction to JavaScript
+                        <span
+                          class="ms-3 badge bg-warning text-white fw-light small"
+                          >Free</span
+                        >
+                      </h4>
+                      <div class="d-flex justify-content-between">
+                        <span class="text-dark fw-semibold">COURSES - 1</span>
+                        <span class="text-gray-600 fw-medium">6 LESSONS</span>
+                        <span class="text-gray-600 fw-medium"
+                          >1 HOUR 12 MIN</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 lead">
+                    In et tempus dui, in porta dolor. Donec molestie a purus ut
+                    interdum. Donec quis felis dignissim, luctus libero ornare.
+                  </p>
+                </div>
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#chapterModal"
+                  href=""
+                  class="text-primary text-decoration-underline fw-semibold mt-auto ps-3"
+                >
+                  View Chapter Details
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div
+                class="card bg-white rounded-3 border-0 p-4 h-100 text-start"
+              >
+                <div class="card-body">
+                  <div class="d-md-flex mb-4">
+                    <div class="me-4 mb-3 mb-md-0">
+                      <img
+                        src="https://geeksui.codescandy.com/geeks/assets/images/svg/feature-icon-2.svg"
+                        alt=""
+                        class="img-fluid bg-primary rounded-circle"
+                      />
+                    </div>
+                    <div class="">
+                      <h4 class="fw-bold fs-3 mb-2">JavaScript Beginning</h4>
+                      <div class="d-flex justify-content-between">
+                        <span class="text-dark fw-semibold">COURSES - 2</span>
+                        <span class="text-gray-600 fw-medium">4 LESSONS</span>
+                        <span class="text-gray-600 fw-medium">32 MIN</span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 lead">
+                    Malesuada fames ac turpis egesta mpor tempus tincidunt.
+                    Aliquam congue lacus ac tellus consectetur malesuada.
+                  </p>
+                </div>
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#chapterModal"
+                  href=""
+                  class="text-primary text-decoration-underline fw-semibold mt-auto ps-3"
+                >
+                  View Chapter Details
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div
+                class="card bg-white rounded-3 border-0 p-4 h-100 text-start"
+              >
+                <div class="card-body">
+                  <div class="d-md-flex mb-4">
+                    <div class="me-4 mb-3 mb-md-0">
+                      <img
+                        src="https://geeksui.codescandy.com/geeks/assets/images/svg/feature-icon-3.svg"
+                        alt=""
+                        class="img-fluid bg-primary rounded-circle"
+                      />
+                    </div>
+                    <div class="">
+                      <h4 class="fw-bold fs-3 mb-2">Variables and Constants</h4>
+                      <div class="d-flex justify-content-between">
+                        <span class="text-dark fw-semibold">COURSES - 3</span>
+                        <span class="text-gray-600 fw-medium">8 LESSONS</span>
+                        <span class="text-gray-600 fw-medium">10 MIN</span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 lead">
+                    Aliquam pulvinar eros a dictur vitae diam imperdiet, ornare
+                    turpis vequet elit nec, imperdiet lectuna liquam qs.
+                  </p>
+                </div>
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#chapterModal"
+                  href=""
+                  class="text-primary text-decoration-underline fw-semibold mt-auto ps-3"
+                >
+                  View Chapter Details
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div
+                class="card bg-white rounded-3 border-0 p-4 h-100 text-start"
+              >
+                <div class="card-body">
+                  <div class="d-md-flex mb-4">
+                    <div class="me-4 mb-3 mb-md-0">
+                      <img
+                        src="https://geeksui.codescandy.com/geeks/assets/images/svg/feature-icon-4.svg"
+                        alt=""
+                        class="img-fluid bg-primary rounded-circle"
+                      />
+                    </div>
+                    <div class="">
+                      <h4 class="fw-bold fs-3 mb-2">Types and Operators</h4>
+                      <div class="d-flex justify-content-between">
+                        <span class="text-dark fw-semibold">COURSES - 4</span>
+                        <span class="text-gray-600 fw-medium">10 LESSONS</span>
+                        <span class="text-gray-600 fw-medium">32 MIN</span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="text-gray-600 lead">
+                    In lobortis quam eu augue spendisse imperdiet nec orci
+                    ipsum, tempus pharetra posuere imperdiet, lacinia a nisl.
+                  </p>
+                </div>
+                <a
+                  data-bs-toggle="modal"
+                  data-bs-target="#chapterModal"
+                  href=""
+                  class="text-primary text-decoration-underline fw-semibold mt-auto ps-3"
+                >
+                  View Chapter Details
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 text-center text-lg-start">
+        <div class="container py-5">
+          <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-lg-6">
+              <h6 class="text-primary mb-4">YOUR INSTRUCTOR</h6>
+              <h2 class="fw-bold display-5 mb-4">
+                Hi, I'm James Davies, I will be taking you through lessons.
+              </h2>
+              <p class="lead text-gray-600 mb-5">
+                Create beautiful website with this Geeks UI template. Get
+                started building a site today.
+              </p>
+              <div class="border-bottom mb-5"></div>
+              <div class="d-flex justify-content-between">
+                <span>
+                  <p class="display-5 fw-bold mb-1">45</p>
+                  <p class="fw-light">Lessons</p>
+                </span>
+                <span>
+                  <p class="display-5 fw-bold mb-1">10,500+</p>
+                  <p class="fw-light">Students</p>
+                </span>
+                <span>
+                  <p class="display-5 fw-bold mb-1">12+</p>
+                  <p class="fw-light">Learning Hours</p>
+                </span>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <img
+                src="https://geeksui.codescandy.com/geeks/assets/images/instructor/instructor-img.png"
+                alt=""
+                class="img-fluid ms-5"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 text-center">
+        <div class="container py-5">
+          <h4 class="text-primary mb-5">
+            TRUSTED BY TOP-TIER PRODUCT COMPANIES
+          </h4>
+          <div class="row">
+            <div class="col-6 col-md-4 px-5 mb-4">
+              <img
+                src="https://geeksui.codescandy.com/geeks/assets/images/brand/gray-logo-stripe.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-6 col-md-4 px-5 mb-4">
+              <img
+                src="https://geeksui.codescandy.com/geeks/assets/images/brand/gray-logo-airbnb.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-6 col-md-4 px-5 mb-4">
+              <img
+                src="https://geeksui.codescandy.com/geeks/assets/images/brand/gray-logo-discord.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-6 col-md-4 px-5 mb-4">
+              <img
+                src="https://geeksui.codescandy.com/geeks/assets/images/brand/gray-logo-intercom.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-6 col-md-4 px-5 mb-4">
+              <img
+                src="https://geeksui.codescandy.com/geeks/assets/images/brand/gray-logo-pinterest.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-6 col-md-4 px-5 mb-4">
+              <img
+                src="https://geeksui.codescandy.com/geeks/assets/images/brand/gray-logo-netflix.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 text-center bg-secondary-bg-subtle">
+        <div class="container py-5">
+          <div class="header mb-5">
+            <h6 class="text-primary">TESTIMONIALS</h6>
+            <h2 class="fw-bold display-5 mb-3">What our learners are saying</h2>
+            <p class="lead text-gray-600 fw-medium mb-4">
+              12+ million people are already learning on Geeks
+            </p>
+          </div>
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <div class="card rounded-3 shadow h-100">
+                <div class="card-body rounded-top-3 p-5">
+                  <i
+                    class="bi bi-quote display-3 text-primary text-opacity-25"
+                  ></i>
+                  <p class="fs-4 fw-medium lh-lg px-3">
+                    The generated lorem Ipsum is therefore always free from
+                    repetition, injected humour, or words etc generate lorem
+                    Ipsum which looks racteristic reasonable.
+                  </p>
+                </div>
+                <div class="card-footer rounded-bottom-3 bg-primary">
+                  <div class="w-25 mx-auto translate-middle-y">
+                    <img
+                      src="https://geeksui.codescandy.com/geeks/assets/images/avatar/avatar-1.jpg"
+                      class="img-fluid rounded-circle border border-3 border-primary"
+                    />
+                  </div>
+                  <p class="fs-3 fw-bold text-white mb-1 translate-middle-y">
+                    Gladys Colbert
+                  </p>
+                  <p class="text-white-50 translate-middle-y">
+                    Software Engineer at Palansite
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card shadow rounded-3 h-100">
+                <div class="card-body rounded-top-3 p-5">
+                  <i
+                    class="bi bi-quote display-3 text-info text-opacity-25"
+                  ></i>
+                  <p class="fs-4 fw-medium lh-lg px-3">
+                    Lorem ipsum dolor sit amet, consectetur adipi scing elit.
+                    Sed vel felis imperdiet, lacinia metus malesuada diamamus
+                    rutrum turpis leo, id tincidunt magna sodales.
+                  </p>
+                </div>
+                <div class="card-footer rounded-bottom-3 bg-info">
+                  <div class="w-25 mx-auto translate-middle-y">
+                    <img
+                      src="https://geeksui.codescandy.com/geeks/assets/images/avatar/avatar-2.jpg"
+                      class="img-fluid rounded-circle border border-3 border-info"
+                    />
+                  </div>
+                  <p class="fs-3 fw-bold text-white mb-1 translate-middle-y">
+                    Ella Jones
+                  </p>
+                  <p class="text-white-50 translate-middle-y">
+                    Software Engineer at Classroom
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 text-center">
+        <div class="container py-5">
+          <div class="header mb-5">
+            <h6 class="text-primary">NEED TO KNOW</h6>
+            <h2 class="fw-bold display-5 mb-3">Frequently Asked Questions.</h2>
+            <p class="lead text-gray-600 fw-medium mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis
+              non accumsan in, tempor dictum neque.
+            </p>
+          </div>
+          <div class="row px-5">
+            <div
+              class="accordion mb-5 accordion-flush"
+              id="frequentlyquestions"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold fs-4 py-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-one"
+                    aria-expanded="false"
+                    aria-controls="question-one"
+                  >
+                    What is the cost of an online course
+                  </button>
+                </h2>
+                <div
+                  id="question-one"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#frequentlyquestions"
+                >
+                  <div class="accordion-body fw-light lead text-start">
+                    Create beautiful website with this Geeks UI template. Get
+                    started building a site today.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold fs-4 py-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-two"
+                    aria-expanded="false"
+                    aria-controls="question-two"
+                  >
+                    What do I need to take a course?
+                  </button>
+                </h2>
+                <div
+                  id="question-two"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#frequentlyquestions"
+                >
+                  <div class="accordion-body fw-light lead text-start">
+                    Leggings occaecat craft beer farm-to-table, raw denim
+                    aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold fs-4 py-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-three"
+                    aria-expanded="false"
+                    aria-controls="question-three"
+                  >
+                    What do I receive for taking this course?
+                  </button>
+                </h2>
+                <div
+                  id="question-three"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#frequentlyquestions"
+                >
+                  <div class="accordion-body fw-light lead text-start">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch. Food truck
+                    quinoa nesciunt laborum eiusmod.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fw-bold fs-4 py-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#question-four "
+                    aria-expanded="false"
+                    aria-controls="question-four "
+                  >
+                    What willI get if I subscribe to this Certificate?
+                  </button>
+                </h2>
+                <div
+                  id="question-four"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#frequentlyquestions"
+                >
+                  <div class="accordion-body fw-light lead text-start">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. 3 wolf moon officia
+                    aute, non cupidatat skateboard dolor brunch. Food truck
+                    quinoa nesciunt laborum eiusmod.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-outline-primary w-75 mx-auto py-3 fw-medium">
+              More questions? Visit the Learner Help Center.
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 text-center bg-secondary-bg-subtle">
+        <div class="container py-5">
+          <h2 class="fw-bold display-5 mb-3">
+            Join more than 1 million learners worldwide
+          </h2>
+          <p class="lead text-gray-600 fw-medium mb-4">
+            Effective learning starts with assessment. Learning a new skill is
+            hard work—Signal makes it easier.
+          </p>
+          <div class="row text-center">
+            <div class="col-md-6 text-end mb-3 mb-md-0">
+              <button
+                class="btn btn-primary w-100 text-white fw-bold px-4 py-3 rounded-3"
+              >
+                Start Learning for Free
+              </button>
+            </div>
+            <div class="col-md-6 text-start mb-3 mb-md-0">
+              <button
+                class="btn btn-info w-100 text-white fw-bold px-4 py-3 rounded-3"
+              >
+                Geeks for Business
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 text-center">
+        <div class="container py-5">
+          <h2 class="fw-bold display-5 mb-3">Geeks- Feature Highlights</h2>
+          <p class="lead text-gray-600 fw-medium mb-4">
+            If you use Geeks UI, this is the next level. We ve put in the work
+            to create high-quality design and bootstrap components.
+          </p>
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col text-start mb-5">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/bootstrap.svg"
+                alt=""
+                class="img-fluid mb-4"
+              />
+              <h3 class="mb-2 fw-semibold">Made with Bootstrap 5</h3>
+              <p class="text-gray-600 lh-lg">
+                Every code snippet you'll get is written in
+                <a href="" class="text-primary text-decoration-none"
+                  >Bootstrap 5</a
+                >
+                in a way that seamlessly integrates with Geeks UI.
+              </p>
+            </div>
+            <div class="col text-start mb-5">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/docs.svg"
+                alt=""
+                class="img-fluid mb-4"
+              />
+              <h3 class="mb-2 fw-semibold">Documented Code</h3>
+              <p class="text-gray-600 lh-lg">
+                How to install Geeks UI and get up and running. It covers all
+                crucial information about how to get started, customize template
+                & components usage.
+              </p>
+            </div>
+            <div class="col text-start mb-5">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/gulp.svg"
+                alt=""
+                class="img-fluid mb-4"
+              />
+              <h3 class="mb-2 fw-semibold">Gulp - toolkit to automate</h3>
+              <p class="text-gray-600 lh-lg">
+                Full tasks automation. Start your development process fast and
+                easy with Node.js and
+                <a href="" class="text-primary text-decoration-none">Gulp</a>
+                setup. Configuration files are included.
+              </p>
+            </div>
+            <div class="col text-start mb-5">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/saas.svg"
+                alt=""
+                class="img-fluid mb-4"
+              />
+              <h3 class="mb-2 fw-semibold">Easy to Customize with Sass</h3>
+              <p class="text-gray-600 lh-lg">
+                Geeks UI is built using Sass. Easily change colors, typography
+                and much more. Sass is the most mature, stable, and powerful
+                professional grade CSS extension language in the world.
+              </p>
+            </div>
+            <div class="col text-start mb-5">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/components.svg"
+                alt=""
+                class="img-fluid mb-4"
+              />
+              <h3 class="mb-2 fw-semibold">80+ Flexible Components</h3>
+              <p class="text-gray-600 lh-lg">
+                Simple and accessible Bootstrap 5 components & lots of new
+                flexible, customizable and reusable elements you can use across
+                the website and application.
+              </p>
+            </div>
+            <div class="col text-start mb-5">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/rtl.svg"
+                alt=""
+                class="img-fluid mb-4"
+              />
+              <h3 class="mb-2 fw-semibold">Bootstrap 5 RTL-Friendly</h3>
+              <p class="text-gray-600 lh-lg">
+                Want to support Arabic or Hebrew content? All components are
+                designed to flip correctly between LTR and RTL layouts
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 text-center bg-secondary-bg-subtle">
+        <div class="container py-5">
+          <h2 class="fw-bold display-5 mb-3">
+            Move even faster with Geeks UI Components
+          </h2>
+          <p class="lead text-gray-600 fw-medium mb-4">
+            Geeks UI is a collection of beautiful, fully responsive UI
+            components. You ll get access to template + components today, plus
+            new components and pages every month until we re out of ideas.
+          </p>
+          <div class="row px-5">
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/testimonialComponents.svg"
+                alt=""
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/cardComponents.svg"
+                alt=""
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/profileComponents.svg"
+                alt=""
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/featureComponents.svg"
+                alt=""
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/formComponents.svg"
+                alt=""
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 mb-3">
+              <img
+                src="https://geeksui.codescandy.com/assets/images/pricingComponents.svg"
+                alt=""
+                class="img-fluid w-100"
+              />
+            </div>
+          </div>
+          <button class="btn btn-primary text-white fw-medium px-4 py-3 mt-5">
+            Browse all components
+          </button>
+        </div>
+      </section>
+      <footer>
+        <div class="container py-5">
+          <div class="row pb-5 border-bottom">
+            <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+              <img
+                src="./assets/logo Tu dark.png"
+                alt=""
+                class="img-fluid"
+                width="110px"
+              />
+              <p class="text-gray-600 my-4">
+                Geek is feature-rich components and beautifully Bootstrap UIKit
+                for developers, built with bootstrap responsive framework.
+              </p>
+              <a href="" class="text-decoration-none"
+                ><i class="bi bi-facebook text-gray-600 me-3"></i
+              ></a>
+              <a href="" class="text-decoration-none"
+                ><i class="bi bi-twitter text-gray-600 me-3"></i
+              ></a>
+              <a href="" class="text-decoration-none"
+                ><i class="bi bi-instagram text-gray-600 me-3"></i
+              ></a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="row">
+                <div class="col-6">
+                  <p class="lead fw-bold">Company</p>
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >About</a
+                  >
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >Pricing</a
+                  >
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >Blog</a
+                  >
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >Careers</a
+                  >
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >Contact</a
+                  >
+                </div>
+                <div class="col-6">
+                  <p class="lead fw-bold">Support</p>
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >Help and Support</a
+                  >
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >Become Instructor</a
+                  >
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >Get the app</a
+                  >
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >FAQ's</a
+                  >
+                  <a
+                    href=""
+                    class="text-gray-600 d-block text-decoration-none mb-2"
+                    >Tutorial</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4 mt-lg-0">
+              <p class="lead fw-bold">Get in touch</p>
+              <p class="text-gray-600">
+                339 McDermott Points Hettingerhaven, NV 15283
+              </p>
+              <p>
+                Email: <span class="text-primary">support@geeksui.com</span>
+              </p>
+              <p>Phone: <b>(000) 123 456 789</b></p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <p class="text-gray-600">
+                © 2023 Geeks-UI, Inc. All Rights Reserved
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-4">
+                  <a href="" class="text-gray-600 text-decoration-none"
+                    >Privacy Policy</a
+                  >
+                </div>
+                <div class="col-4">
+                  <a href="" class="text-gray-600 text-decoration-none"
+                    >Cookie Notice</a
+                  >
+                </div>
+                <div class="col-4">
+                  <a href="" class="text-gray-600 text-decoration-none"
+                    >Terms of Use</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <div
+      class="modal fade"
+      id="chapterModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered w-75">
+        <div class="modal-content">
+          <div class="modal-header px-4 py-5">
+            <div class="d-lg-flex">
+              <div class="me-4 mb-3 mb-lg-0">
+                <img
+                  src="https://geeksui.codescandy.com/geeks/assets/images/svg/feature-icon-1.svg"
+                  alt=""
+                  class="img-fluid bg-primary rounded-circle"
+                />
+              </div>
+              <div class="">
+                <h4 class="fw-bold fs-3 mb-2 d-flex">
+                  Introduction to JavaScript
+                  <span class="ms-3 badge bg-warning text-white fw-light small"
+                    >Free</span
+                  >
+                </h4>
+                <div class="d-flex justify-content-between">
+                  <span class="text-dark fw-semibold">COURSES - 1</span>
+                  <span class="text-gray-600 fw-medium">6 LESSONS</span>
+                  <span class="text-gray-600 fw-medium">1 HOUR 12 MIN</span>
+                </div>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body mx-3 py-5">
+            <h4 class="fw-bold mb-3">In this course you will learn:</h4>
+            <p class="lead text-gray-600 fw-light lh-lg mb-4">
+              Vanilla JS is a fast, lightweight, cross-platform framework for
+              building incredible, powerful JavaScript applications.
+            </p>
+            <div
+              class="d-flex justify-content-between align-items-center border-bottom py-3"
+            >
+              <span class="text-gray-600 lead">
+                <i
+                  class="bi bi-play-fill lead text-primary d-inline-flex justify-content-center align-items-center me-3"
+                ></i>
+                Introduction
+              </span>
+              <span class="text-medium lead">1m 7s</span>
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center border-bottom py-3"
+            >
+              <span class="text-gray-600 lead">
+                <i
+                  class="bi bi-play-fill lead text-primary d-inline-flex justify-content-center align-items-center me-3"
+                ></i>
+                Installing Development Software
+              </span>
+              <span class="text-medium lead">3m 11s</span>
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center border-bottom py-3"
+            >
+              <span class="text-gray-600 lead">
+                <i
+                  class="bi bi-play-fill lead text-primary d-inline-flex justify-content-center align-items-center me-3"
+                ></i>
+                Hello World Project from GitHub
+              </span>
+              <span class="text-medium lead">2m 33s</span>
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center border-bottom py-3"
+            >
+              <span class="text-gray-600 lead">
+                <i
+                  class="bi bi-play-fill lead text-primary d-inline-flex justify-content-center align-items-center me-3"
+                ></i>
+                Our Sample Javascript Files
+              </span>
+              <span class="text-medium lead">22m 30s</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== Bootstrap 5 JS here ======= -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
